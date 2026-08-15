@@ -17,13 +17,7 @@ module demo {
 }
 ```
 
-### Run 
-```
-
-terraform init
-terraform apply
-```
-
+### To get output add below code
 ```
 output cluster_location {
   description = "GKE cluster location"
@@ -35,3 +29,10 @@ output "cluster_name" {
   value       = google_container_cluster.primary.name
 }
 ```
+### Run 
+```
+terraform init
+terraform apply
+```
+## trigger actions
+test puch

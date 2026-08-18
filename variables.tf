@@ -16,4 +16,3 @@ variable "node_locations" {
   type    = list(string)
   default = []
 }
-
